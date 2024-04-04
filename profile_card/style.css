@@ -4,17 +4,42 @@
   box-sizing: border-box;
 }
 
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .card{
-  width: 300px;
-  height: 400px;
-  background-color: #000000;
+  width: 400px;
+  background-color: #f59494;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px #000000;
+  box-shadow: 0px 0px 10px #a75454;
   margin: 10px;
+  padding: 1.5rem;
+}
+
+.card-body{
+  text-align: center;
+  color: white;
+}
+.profile-title{
+  font-size: 2rem;
+  font-weight: 900;
+}
+.profile-occupation{
+  font-weight: 600;
+}
+.profile-description{
+  margin: .8rem 0;
+  font-size: .8rem;
+  font-weight: 400;
 }
 
 .card-image{
-  margin: auto 3rem;
+  text-align: center;
+  margin: .5rem 0;
 }
 .card-image img {
   border-radius: 50%;

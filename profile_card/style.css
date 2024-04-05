@@ -2,45 +2,60 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.content{
+.content {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-.card{
+.card {
   width: 400px;
-  background-color: #f59494;
+  background-color: #f875aa;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px #a75454;
+  box-shadow: 0px 0px 10px #f875aa;
   margin: 10px;
   padding: 1.5rem;
 }
 
-.card-body{
+.card-body {
   text-align: center;
-  color: white;
+  color: #ffdfdf;
 }
-.profile-title{
+
+.profile-title {
   font-size: 2rem;
   font-weight: 900;
 }
-.profile-occupation{
+
+.profile-occupation {
   font-weight: 600;
 }
-.profile-description{
-  margin: .8rem 0;
-  font-size: .8rem;
+
+.profile-description {
+  margin: 0.8rem 0;
+  font-size: 0.8rem;
   font-weight: 400;
 }
 
-.card-image{
+.card-image {
   text-align: center;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
+
 .card-image img {
   border-radius: 50%;
+}
+
+.contact-information {
+  color: white;
+  font-size: small;
+  border-top: 1px solid #ffdfdf;
+}
+
+.contact-information span {
+  font-weight: 800;
 }
